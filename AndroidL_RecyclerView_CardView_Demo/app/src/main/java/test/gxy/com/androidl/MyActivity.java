@@ -1,4 +1,4 @@
-package test.gxy.com.androidltest;
+package test.gxy.com.androidl;
 
 import android.app.Activity;
 import android.os.Bundle;
