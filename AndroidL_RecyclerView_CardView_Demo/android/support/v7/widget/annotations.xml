@@ -1,0 +1,6 @@
+<root>
+    <item name='android.support.v7.widget.RecyclerView.ViewHolder'>
+        <annotation name='java.lang.annotation.Deprecated' />
+        <annotation name='org.jetbrains.annotations.Nullable' />
+    </item>
+</root>
