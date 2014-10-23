@@ -11,6 +11,9 @@ import android.view.MenuItem;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Created by Dean Guo on 10/20/14.
+ */
 public class MyActivity
     extends Activity
 {

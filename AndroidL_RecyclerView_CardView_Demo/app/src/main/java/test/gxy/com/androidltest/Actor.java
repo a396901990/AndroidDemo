@@ -3,7 +3,7 @@ package test.gxy.com.androidltest;
 import android.content.Context;
 
 /**
- * Created by temp on 10/20/14.
+ * Created by Dean Guo on 10/20/14.
  */
 public class Actor
 {
