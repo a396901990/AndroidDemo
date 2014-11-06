@@ -1,0 +1,85 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MyActivity">
+
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+
+        <ImageView
+            android:id="@+id/detail_pic"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY" />
+
+        <ImageButton
+            android:id="@+id/detail_btn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="right|bottom"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:elevation="50dp"
+            android:transitionName="ShareBtn"
+            android:tint="@android:color/white"
+            android:background="@drawable/oval"
+            android:src="@android:drawable/ic_menu_gallery"/>
+
+    </FrameLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"
+        android:background="#424242"></View>
+
+    <TextView
+        android:id="@+id/detail_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:text="姓名：朱茵"
+        android:padding="5dp"
+        android:textColor="@android:color/white"
+        />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"
+        android:background="#424242"></View>
+
+    <TextView
+        android:id="@+id/detail_works"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:padding="5dp"
+        android:text="代表作：大话西游"
+        android:textColor="@android:color/white"/>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"
+        android:background="#424242"
+        android:textColor="@android:color/white"></View>
+
+    <TextView
+        android:id="@+id/detail_role"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:padding="5dp"
+        android:textColor="@android:color/white"
+        android:text="饰演：紫霞仙子" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"
+        android:background="#424242"
+        android:textColor="@android:color/white"></View>
+
+</LinearLayout>

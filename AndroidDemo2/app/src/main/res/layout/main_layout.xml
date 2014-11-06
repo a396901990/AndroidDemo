@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CountryActivity">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".CountryActivity"
+        android:elevation="0dp"
+        />
+
+    <ImageButton
+        android:id="@+id/add_button"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="left|bottom"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="30dp"
+        android:elevation="30dp"
+        android:tint="@android:color/white"
+        android:background="@drawable/oval"
+        android:src="@android:drawable/ic_input_add"/>
+</FrameLayout>
+
